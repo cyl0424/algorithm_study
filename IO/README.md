@@ -1,5 +1,5 @@
 ## Solved
-- 2557, 1000    
+- [2557](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2557.py), [1000](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/1000.py)    
     
 <br>
 
