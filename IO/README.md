@@ -2,14 +2,14 @@
 - 2557, 1000
 
 # Note
-- map(함수, 리스트 or 튜플) : 리스트 or 튜플의 요소를 지정된 함수로 처리해주는 함수
+- **map(함수, 리스트 or 튜플) : 리스트 or 튜플의 요소를 지정된 함수로 처리해주는 함수**    
 
 	
-	example code
+	***example code***
 	```
 	a, b = map(int, input().split())
 	```
-	description
+	***description***
 	```
 	# split()을 이용해 input으로 받은 값을 리스트로 저장
 	numList = input().split()
