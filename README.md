@@ -1,8 +1,8 @@
 # Baekjoon_Python
 
 ## I/O
-- [X] [2557](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2557.py)
-- [X] [1000](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/1000.py)
+- [X] [2557](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2557.py) (2022.02.21)
+- [X] [1000](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/1000.py) (2022.02.21)
 - [ ] [2558](https://github.com/cyl0424/baeckjoon_python)
 - [ ] [10950](https://github.com/cyl0424/baeckjoon_python)
 - [ ] [10951](https://github.com/cyl0424/baeckjoon_python)
