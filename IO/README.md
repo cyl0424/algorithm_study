@@ -5,6 +5,7 @@
 - map(함수, 리스트 or 튜플) : 리스트 or 튜플의 요소를 지정된 함수로 처리해주는 함수
 
 '''
+	
 	example)
 	a, b = map(int, input().split())
 	
