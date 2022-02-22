@@ -22,9 +22,11 @@
 	a, b = numInt
 	```
 	###### 참고 : [파이썬 코딩도장: 22.6 리스트에 map 사용하기](https://dojang.io/mod/page/view.php?id=2286)
-    
-    
+
+<br>
+
 - **EOFError 예외처리 : 입력값이 없는 예외를 처리하기 위해 사용**   
+
 	***example code***
 	```
 	while True : 
