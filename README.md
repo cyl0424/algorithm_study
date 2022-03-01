@@ -1,6 +1,9 @@
 # Baekjoon_Python
 
 ## I/O
+<details>
+    <summary>문제 리스트</summary>
+
 - [X] [2557](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2557.py) (2022.02.21)
 - [X] [1000](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/1000.py) (2022.02.21)
 - [X] [2558](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2558.py) (2022.02.22)
@@ -30,10 +33,16 @@
 - [X] [2446](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2446.py) (2022.02.27)
 - [X] [10991](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/10991.py) (2022.03.01)
 - [X] [10992](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/10992.py) (2022.03.01)
+</details>
+
+
 
 <br>
 
 ## DP
+<details>
+    <summary>문제 리스트</summary>
+  
 - [ ] [1463](https://www.acmicpc.net/problem/1463)
 - [ ] [11726](https://www.acmicpc.net/problem/11726)
 - [ ] [11727](https://www.acmicpc.net/problem/11727)
@@ -55,3 +64,4 @@
 - [ ] [2225](https://www.acmicpc.net/problem/2225)
 - [ ] [2011](https://www.acmicpc.net/problem/2011)
 - [ ] [11052](https://www.acmicpc.net/problem/11052)
+  </details>
