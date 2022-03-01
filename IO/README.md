@@ -1,8 +1,3 @@
-## Solved
-- [2557](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2557.py), [1000](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/1000.py), [2558](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2558.py), [10950](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/10950.py), [10951](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/10951.py), [10952](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/10952.py), [10953](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/10953.py), [11021](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/11021.py), [11022](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/11022.py), [11718](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/11718.py), [11719](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/11719.py), [11720](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/11720.py), [11721](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/11721.py), [2741](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2741.py), [2742](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2742.py), [2739](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2739.py), [1924](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/1924.py), [10818](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/10818.py)
-    
-<br>
-
 ## Note
 - **map(함수, 리스트 or 튜플) :** 리스트 or 튜플의 요소를 지정된 함수로 처리해주는 함수   
 	
