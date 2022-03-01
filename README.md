@@ -3,7 +3,8 @@
 ## I/O
 <details>
     <summary>문제 리스트</summary>
-
+<br>
+    
 - [X] [2557](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2557.py) (2022.02.21)
 - [X] [1000](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/1000.py) (2022.02.21)
 - [X] [2558](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/2558.py) (2022.02.22)
@@ -42,6 +43,7 @@
 ## DP
 <details>
     <summary>문제 리스트</summary>
+    <br>
   
 - [ ] [1463](https://www.acmicpc.net/problem/1463)
 - [ ] [11726](https://www.acmicpc.net/problem/11726)
