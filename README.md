@@ -32,6 +32,7 @@
 - [X] [10992](https://github.com/cyl0424/baeckjoon_python/blob/main/IO/10992.py) (2022.03.01)
 
 <br>
+
 ## DP
 - [ ] [1463](https://www.acmicpc.net/problem/1463)
 - [ ] [11726](https://www.acmicpc.net/problem/11726)
