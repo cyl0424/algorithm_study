@@ -1,0 +1,2 @@
+idStr = input()
+print(idStr+"??!")
