@@ -1,21 +1,15 @@
 n = int(input())
 
-numbers = [0] * 4
+res = ''
 
 if n == 0:
-    numbers[1] += 1
+    res = '1'
+elif n == 1:
+    res = '0'
 else:
-    while n > 0:
-        if n == 1 and sum(numbers) == 0:
-            numbers[0] += 1
-            break
-        elif n % 2 == 0:
-            numbers[3] += n // 2
-            break
-        else:
-            numbers[2] += 1
-            n -= 1
-
-res = '0'*numbers[0] + '1'*numbers[1] + '4'*numbers[2] + '8'*numbers[3]
+    if n % 2 == 0:
+        res = '8' * (n//2)
+    else:
+        res = '4' + '8' * (n//2)
 
 print(res)
