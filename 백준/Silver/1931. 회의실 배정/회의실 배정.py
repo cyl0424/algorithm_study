@@ -1,17 +1,14 @@
 n = int(input())
-t = []
+meetings = [tuple(map(int, input().split())) for _ in range(n)]
 
-meeting = []
-tmp = 0
+meetings.sort(key=lambda x: (x[1], x[0]))
 
-for _ in range(n):
-    t.append(list(map(int, input().split())))
+end_time = 0
+count = 0
 
-t.sort(key=lambda x : (x[1], x[0]))
+for start, end in meetings:
+    if start >= end_time:
+        end_time = end
+        count += 1
 
-for start, end in t:
-    if start >= tmp:
-        tmp = end
-        meeting.append([start, end])
-
-print(len(meeting))
+print(count)
