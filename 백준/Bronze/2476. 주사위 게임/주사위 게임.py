@@ -1,24 +1,20 @@
-from collections import defaultdict
-
-N = int(input())
+n = int(input())
 max_prize = 0
 
-for _ in range(N):
-    dice = list(map(int, input().split()))
-    count = defaultdict(int)
-
-    for number in dice:
-        count[number] += 1
-
-    sorted_count = sorted(count.items(), key=lambda x: (-x[1], -x[0]))
-
-    if sorted_count[0][1] == 3:
-        prize = 10000 + sorted_count[0][0] * 1000
-    elif sorted_count[0][1] == 2:
-        prize = 1000 + sorted_count[0][0] * 100
+for _ in range(n):
+    res = 0
+    a, b, c = map(int, input().split())
+    
+    if (a == b == c):
+        res = 10000 + (a * 1000)
+    elif (a == b or b == c):
+        res = 1000 + (b * 100)
+    elif (c == a):
+        res = 1000 + (a * 100)
     else:
-        prize = max(dice) * 100
-
-    max_prize = max(max_prize, prize)
+        res = max(a, b, c) * 100
+    
+    if max_prize < res:
+        max_prize = res
 
 print(max_prize)
