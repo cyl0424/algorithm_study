@@ -1,4 +1,4 @@
-a, b = map(str, input().split())
+a, b = input().split()
 
 min_a = int(a.replace("6", "5"))
 min_b = int(b.replace("6", "5"))
