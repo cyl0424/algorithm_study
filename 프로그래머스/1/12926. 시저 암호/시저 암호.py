@@ -1,21 +1,15 @@
 def solution(s, n):
-    answer = ''
-    tmp = []
+    answer = []
     
-    for l in list(s):
+    for l in s:
         if l == " ":
-            tmp.append(" ")
-            
+            answer.append(" ")
         else:
-            new = (ord(l)+n)
-        
-            if new > ord('z') and l.islower():
+            new = ord(l) + n
+            if l.islower() and new > ord('z'):
                 new -= 26
-
-            elif new > ord('Z') and l.isupper():
+            elif l.isupper() and new > ord('Z'):
                 new -= 26
-
-            tmp.append(chr(new))
-        
-    answer = ''.join(tmp)
-    return answer
+            answer.append(chr(new))
+    
+    return ''.join(answer)
