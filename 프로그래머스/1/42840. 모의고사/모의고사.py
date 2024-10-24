@@ -9,12 +9,12 @@ def solution(answers):
     s2 = 0
     s3 = 0
     
-    for i in range(0, len(answers)):
-        if answers[i] == st_1[i%len(st_1)]:
+    for i, a in enumerate(answers):
+        if a == st_1[i%len(st_1)]:
             s1 += 1
-        if answers[i] == st_2[i%len(st_2)]:
+        if a == st_2[i%len(st_2)]:
             s2 += 1
-        if answers[i] == st_3[i%len(st_3)]:
+        if a == st_3[i%len(st_3)]:
             s3 += 1
     
     max_score = max(s1, s2, s3)
