@@ -8,4 +8,5 @@ def solution(arr):
         if tmp != arr[i]:
             answer.append(arr[i])
         tmp = arr[i]
+        
     return answer
