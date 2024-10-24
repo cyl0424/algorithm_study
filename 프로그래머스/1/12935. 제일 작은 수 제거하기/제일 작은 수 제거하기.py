@@ -1,6 +1,6 @@
 def solution(arr):
     answer = []
-    print(min(arr))
+    
     if (len(arr) == 1):
         answer.append(-1)
     else:
