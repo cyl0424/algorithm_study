@@ -7,4 +7,5 @@ def solution(number):
     for c in cases:
         if sum(c) == 0:
             answer += 1
+            
     return answer
