@@ -4,5 +4,5 @@ def solution(k, m, score):
     score.sort(reverse=True)
     
     for i in range(cnt):
-        answer += min(score[i*m:i*m+m]) * m
+        answer += min(score[i*m:(1+i)*m]) * m
     return answer
