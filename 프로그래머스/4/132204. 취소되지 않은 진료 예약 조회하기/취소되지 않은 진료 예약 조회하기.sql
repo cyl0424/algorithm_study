@@ -1,0 +1,13 @@
+-- 코드를 입력하세요
+WITH NCNCL_APNT AS (SELECT A.APNT_NO, A.PT_NO, A.MCDP_CD, D.DR_NAME, A.APNT_YMD
+                 FROM APPOINTMENT A
+                 JOIN DOCTOR D
+                 ON A.MDDR_ID = D.DR_ID
+                 WHERE A.APNT_CNCL_YN = 'N'
+                    AND A.MCDP_CD = 'CS'
+                    AND A.APNT_YMD LIKE '2022-04-13%')
+SELECT N.APNT_NO, P.PT_NAME, N.PT_NO, N.MCDP_CD, N.DR_NAME, N.APNT_YMD 
+FROM NCNCL_APNT N
+JOIN PATIENT P
+ON P.PT_NO = N.PT_NO
+ORDER BY N.APNT_YMD
