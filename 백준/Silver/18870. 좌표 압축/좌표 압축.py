@@ -6,7 +6,7 @@ input = sys.stdin.readline
 N = int(input())
 
 nums = list(map(int, input().split()))
-sorted_num_set = sorted(list(set(nums)))
+sorted_num_set = sorted(set(nums))
 num_dict = defaultdict(int)
 
 for i, num in enumerate(sorted_num_set):
