@@ -2,15 +2,16 @@ import heapq
 import sys
 input = sys.stdin.readline
 
-size = []
+n = int(input())
+
+sizes = list(map(int, (input() for _ in range(n))))
+heapq.heapify(sizes)
+
 res = 0
 
-for _ in range(int(input())):
-    heapq.heappush(size, int(input()))
-
-while len(size) > 1:
-    new_size = heapq.heappop(size) + heapq.heappop(size)
+while len(sizes) > 1:
+    new_size = heapq.heappop(sizes) + heapq.heappop(sizes)
     res += new_size
-    heapq.heappush(size, new_size)
+    heapq.heappush(sizes, new_size)
 
 print(res)
