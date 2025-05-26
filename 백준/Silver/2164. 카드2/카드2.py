@@ -1,10 +1,13 @@
+import sys
 from collections import deque
+input = sys.stdin.readline
 
-n = int(input())
-numbers = deque(range(1, n+1))
+N = int(input())
 
-while len(numbers)>1:
-    numbers.popleft()
-    numbers.append(numbers.popleft())
+dq = deque([i for i in range(1, N + 1)])
 
-print(numbers.pop())
+while len(dq) > 1:
+    dq.popleft()
+    dq.rotate(-1)
+
+print(dq.pop())
