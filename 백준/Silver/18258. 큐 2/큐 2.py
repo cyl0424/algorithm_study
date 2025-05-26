@@ -2,34 +2,25 @@ import sys
 from collections import deque
 
 input = sys.stdin.readline
+dq = deque()
+output = []
 
-N = int(input())
-numbers = deque()
+for _ in range(int(input())):
+    cmd = input().split()
+    c = cmd[0][0]
 
-for _ in range(N):
-    command = list(input().split())
+    if c == 'p':  # push or pop
+        if cmd[0][1] == 'u':  # push
+            dq.append(cmd[1])
+        else:  # pop
+            output.append(dq.popleft() if dq else '-1')
+    elif c == 's':  # size
+        output.append(str(len(dq)))
+    elif c == 'e':  # empty
+        output.append('0' if dq else '1')
+    elif c == 'f':  # front
+        output.append(dq[0] if dq else '-1')
+    else:        # back
+        output.append(dq[-1] if dq else '-1')
 
-    if command[0] == 'push':
-        numbers.append(int(command[1]))
-    elif command[0] == 'pop':
-        if numbers:
-            print(numbers.popleft())
-        else:
-            print(-1)
-    elif command[0] == 'size':
-        print(len(numbers))
-    elif command[0] == 'empty':
-        if numbers:
-            print(0)
-        else:
-            print(1)
-    elif command[0] == 'front':
-        if numbers:
-            print(numbers[0])
-        else:
-            print(-1)
-    elif command[0] == 'back':
-        if numbers:
-            print(numbers[-1])
-        else:
-            print(-1)
+sys.stdout.write('\n'.join(output))
