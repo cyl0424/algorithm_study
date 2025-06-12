@@ -1,5 +1,4 @@
 def solution(video_len, pos, op_start, op_end, commands):
-    answer = []
     cur_m, cur_s = map(int, pos.split(':'))
     cur_time = cur_m * 60 + cur_s
     
